@@ -19,10 +19,10 @@
         <script src="js/angular.min.js"></script>
     </head>
 
-<body>
+<body >
     <div class="container-fluid">
         <!-- menu header -->
-        <div id="header" class="container-fluid">
+        <div  id="header" class="container-fluid">
             <div class="row">
                 <div class="col-md-3">
                     <img style="width: 170px; margin-left: 170px;" class="img-fluid" src="img/logo-nhom.jpg" alt="">
@@ -73,7 +73,7 @@
                         <div class="container">
                             <h2>Giới Thiệu Về Easy Study</h2>
 
-                            <p>Easy Study là một ứng dụng giúp sinh viên FPL học tập hiệu quả một cách trọn lọc
+                            <p style="">Easy Study là một ứng dụng giúp sinh viên FPL học tập hiệu quả một cách trọn lọc
                                 nhờ các bài
                                 giảng và tài liệu của các anh chị khóa trước, và của các thầy cô tâm huyết ngay tại
                                 trường.
@@ -89,234 +89,219 @@
 
                     <div class="col-md-5">
                         <div class="container">
-                            <p><i class="fa-solid fa-check"></i> Hỗ Trợ việc học nhanh chóng</p>
-                            <p><i class="fa-solid fa-check"></i> Bài học có chọn lọc của các anh chị khóa trước và các
+                            <p><i id="ic" class="fa-solid fa-check"></i> Hỗ Trợ việc học nhanh chóng</p>
+                            <p><i id="ic" class="fa-solid fa-check"></i> Bài học có chọn lọc của các anh chị khóa trước và các
                                 thầy cô</p>
-                            <p><i class="fa-solid fa-check"></i> Bài tập sát chương trình học</p>
-                            <p><i class="fa-solid fa-check"></i> Có các cộng đồng học rộng lớn</p>
-                            <p><i class="fa-solid fa-check"></i> Hỗ trợ tham gia các câu lạc bộ</p>
-                            <p><i class="fa-solid fa-check"></i> Hỗ Trợ việc học nhanh chóng</p>
-                            <p><i class="fa-solid fa-check"></i> Liên lạc nhờ sự giúp đỡ của các thầy cô và anh chị sinh
+                            <p><i id="ic" class="fa-solid fa-check"></i> Bài tập sát chương trình học</p>
+                            <p><i id="ic" class="fa-solid fa-check"></i> Có các cộng đồng học rộng lớn</p>
+                            <p><i id="ic" class="fa-solid fa-check"></i> Hỗ trợ tham gia các câu lạc bộ</p>
+                            <p><i id="ic" class="fa-solid fa-check"></i> Hỗ Trợ việc học nhanh chóng</p>
+                            <p><i id="ic" class="fa-solid fa-check"></i> Liên lạc nhờ sự giúp đỡ của các thầy cô và anh chị sinh
                                 viên khóa trên</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <hr>
-        <!--end gioi thieu -->
-        <!-- gape -->
-        <div id="page" class="container">
-            <div class="container">
-                <br>
-                <h2>Page</h2>
-                <br>
-                <img style="width: 100%;" src="img/page.jpg" alt="">
-                <br>
-            </div>
-            <div class="container">
-                <br>
-                <p class="a"><i class="fa-regular fa-thumbs-up"></i> Trang Fanpage cộng đồng liên hệ và hỗ trợ xử lý về
-                    app Easy Study.</p>
-                <br>
-                <p class="a"><i class="fa-regular fa-thumbs-up"></i> Thông báo cập nhật về app.</p>
-                <br>
-                <p class="a"><i class="fa-regular fa-thumbs-up"></i> Liên hệ nhận tài nguyên đóng góp.</p>
-            </div>
-        </div>
-        <hr>
-        <!-- end page -->
-        <!-- app -->
-        <script>
-            function redirectToLink() {
-                window.location.href = "https://drive.google.com/file/d/1VxpY0-m-X505G0kAWqrfo-M7XJTy4L75/view";
-            }
-        </script>
-        <div id="app" class="container">
-            <br>
-            <h2>Ứng Dụng</h2>
-            <div class="row">
-
-                <div class="col-md-4">
-                    <img style="width: 80%;margin-left: 70px;" src="img/app.jpg" alt="">
-                </div>
-
-                <div class="col-md-4 p-5">
-                    <br>
-
-
-                    <button onclick="redirectToLink()" style="width: 100%;height: 30%;color: white;background-color: gray;" type="button"
-                        class="btn btn-secondary "><i style="font-size: 120%;background-color: gray;"
-                            class="fa-brands fa-android fa-beat"></i> Tải Xuống Android</a></button>
-                    <br>
-                    <br>
-
-                    <button style="width: 100%;height: 30%; color: white; background-color: gray;" type="button"
-                        class="btn btn-secondary"><i style="background-color: gray ;font-size: 150%;"
-                            class="fa-brands fa-apple fa-beat"></i> Đang Phát Triển </button>
-                </div>
-
-                <div class="col-md-4">
-
-                </div>
-                <br>
-
-                <p><i class="fa-solid fa-users"></i> 200+ Sinh Viên FPT Polytechnic đã tải và sử dụng</p>
-                <p><i class="fa-solid fa-users"></i> 5+ Giảng Viên FPT Polytechnic đã hỗ trợ </p>
-            </div>
-        </div>
-        <!-- end app -->
-
-        <!-- ve chung toi -->
-        <hr>
-        <div id="chungtoi" class="container">
-            <br>
-
-            <h2>Về Chúng Tôi</h2>
-            <br>
-
-            <div style="text-align: center;" class="container">
+            <hr>
+            <!--end gioi thieu -->
+            <!-- gape -->
+            <div id="page" class="container">
                 <div class="container">
+                    <br>
+                    <h2>Page</h2>
+                    <br>
+                    <img style="width: 100%;" src="img/nhom.jpg" alt="">
+                    <br>
+                </div>
+                <div class="container">
+                    <br>
+                    <p class="a"><i id="like" class="fa-regular fa-thumbs-up"></i> Trang Fanpage cộng đồng liên hệ và hỗ trợ xử lý về
+                        app Easy Study.</p>
+                        <br>
+                        <p class="a"><i id="like" class="fa-regular fa-thumbs-up"></i> Thông báo cập nhật về app.</p>
+                        <br>
+                        <p class="a"><i id="like" class="fa-regular fa-thumbs-up"></i> Liên hệ nhận tài nguyên đóng góp.</p>
+                </div>
+            </div>
+            <hr>
+            <!-- end page -->
+            <!-- app -->
+            <div id="app" class="container">
+                <br>
+                <h2>Ứng Dụng</h2>
+                <div class="row">
+
+              <div class="col-md-4">
+                <img style="width: 80%;margin-left: 70px;" src="img/app.jpg" alt="">
+            </div>
+
+            <div class="col-md-4 p-5">
+                <br>
+                
+
+                <button style="width: 100%;height: 30%;color: white;background-color: gray;" type="button" class="btn btn-secondary "><img style="background-color: grey;" width="50" height="50" src="https://img.icons8.com/ios/50/android-os.png" alt="android-os"/>  Tải Xuống Android </button>  
+                <br>
+                <br>
+                
+                <button style="width: 100%;height: 30%; color: white; background-color: gray;" type="button" class="btn btn-secondary"><img style="background-color: grey;" width="50" height="50" src="https://img.icons8.com/ios/50/ios-logo.png" alt="ios-logo"/> Tải Xuống IOS </button>  
+            </div>
+
+            <div class="col-md-4">
+                
+            </div>
+            <br>
+
+            <p><i class="fa-solid fa-users"></i> 100+ Sinh Viên FPT Polytechnic đã tải và sử dụng</p>
+            <p><i class="fa-solid fa-users"></i> 5+ Giảng Viên FPT Polytechnic đã hỗ trợ </p>
+            </div>
+            </div>
+            <!-- end app -->
+
+            <!-- ve chung toi -->
+            <hr>
+            <div id="chungtoi" class="container">
+                <br>
+
+                <h2>Về Chúng Tôi</h2>
+                <br>
+
+                <div style="text-align: center;" class="container">
+                    <div class="container">
                     <img style="width: 100%;" src="img/anh-nhom.png" alt="">
                 </div>
-                <br>
-                <p>Nhóm 6 là những người thực hiện dự án và công tác chỉnh sửa gồm:</p>
-                <br>
+                    <br>
+                    <p>Nhóm 3 là những người thực hiện dự án và công tác chỉnh sửa gồm:</p>
+                    <br>
 
-                <div class="row">
-                    <div class="col-md-6 text-secondary">
-                        <p>Nguyễn Thành An - Trưởng nhóm</p>
-                        <p>Đặng Dương Khang - Thành viên</p>
-                        <p>Lê Minh Thuận - Thành viên</p>
-                        <p>Đặng Thanh Duy - Thành viên</p>
-                    </div>
+                    <div class="row">
+                        <div  class="col-md-6 text-secondary">
+                            <p>Nguyễn Thành An - Trưởng nhóm</p>
+                            <p>Đặng Dương Khang - Thành viên</p>
+                            <p>Lê Minh Thuận - Thành viên</p>
+                            <p>Đặng Thanh Duy - Thành viên</p>
+                        </div>
 
-                    <div class="col-md-6 text-secondary">
-                        <p>Nguyễn Bá Lợi - Thành viên</p>
-                        <p>Diệp Gia Hội - Thành viên</p>
-                        <p>
-                            Huỳnh Minh Tân - Thành viên
-                        </p>
-                        <p>Phan Gia Huy - Thành viên</p>
-                    </div>
-                </div>
-            </div>
-
-
-
-        </div>
-        <!-- end ve chung toi -->
-        <!-- end content -->
-
-        <br>
-        <br>
-        <br>
-
-        <hr>
-        <div class="container-fluid">
-            <footer id="footer" class="">
-                <div class="footer-top">
-                    <div class="container">
-                        <div class="row">
-
-                            <div class="col-lg-3 col-md-6">
-                                <div class="footer-info">
-                                    <h3 style="font-size: 17px;">THEO DÕI Easy Study®:</h3>
-
-                                    <strong>Phone:</strong> <br>
-                                    <strong>Email:</strong> <br>
-                                    </p>
-                                    <div class="social-links mt-3">
-
-
-                                        <a href="#" class="twitter"> <i class="fa-brands fa-facebook"></i></i></a>
-                                        <a href="#" class="facebook"><i class="fa-brands fa-instagram"></i></a>
-                                        <a href="#" class="instagram"><i class="fa-brands fa-tiktok"></i></i></a>
-                                        <a href="#" class="google-plus"><i class="fa-brands fa-twitter"></i></i></a>
-                                        <a href="#" class="linkedin"><i class="fa-brands fa-telegram"></i></i></a>
-
-                                    </div>
-                                    <div class="spinner-grow text-muted"></div>
-                                    <div class="spinner-grow text-primary"></div>
-                                    <div class="spinner-grow text-success"></div>
-                                    <div class="spinner-grow text-info"></div>
-                                    <div class="spinner-grow text-warning"></div>
-                                    <div class="spinner-grow text-danger"></div>
-                                </div>
-                            </div>
-
-                            <div class="col-lg-2 col-md-6 footer-links">
-                                <h4>Trợ Giúp</h4>
-                                <ul style="text-decoration: none;">
-
-                                    <li><i class="bx bx-chevron-right"></i> <a style="text-decoration: none;"
-                                            href="#">Trung tâm trợ giúp</a></li>
-                                    <li><i class="bx bx-chevron-right"></i> <a style="text-decoration: none;"
-                                            href="#">Quy định sử dụng
-                                        </a></li>
-                                    <li><i class="bx bx-chevron-right"></i> <a style="text-decoration: none;"
-                                            href="#">Chính sách bảo mật</a></li>
-
-                                </ul>
-                            </div>
-
-                            <div class="col-lg-3 col-md-6 footer-links">
-                                <h4>Dịch Vụ</h4>
-                                <ul style="text-decoration: none;">
-                                    <li><i class="bx bx-chevron-right"></i> <a style="text-decoration: none;"
-                                            href="#">Tìm
-                                            bài viết</a></li>
-                                    <li><i class="bx bx-chevron-right"></i> <a style="text-decoration: none;"
-                                            href="#">Blog</a></li>
-                                    <!-- <li><i class="bx bx-chevron-right"></i> <a style="text-decoration: none;" href="#">
-                                        </a></li> -->
-                                    <li><i class="bx bx-chevron-right"></i> <a style="text-decoration: none;"
-                                            href="#">Chính
-                                            sách </a></li>
-                                    <li><i class="bx bx-chevron-right"></i> <a style="text-decoration: none;"
-                                            href="#">Thông
-                                            tin liên hệ</a></li>
-                                </ul>
-                            </div>
-
-                            <div class="col-lg-4 col-md-6 footer">
-                                <h4>Đăng ký để nhận thông tin</h4>
-                                <p>Nhập email và ấn đăng ký để nhận thông báo sớm nhất </p>
-                                <div class="input-group">
-                                    <input type="text" class="form-control" placeholder="Your Email">
-                                    <span class="input-group-text">Đăng ký</span>
-                                </div>
-                                <br>
-                                <br>
-
-                                <img style="width: 150px;" src="img/gg_map.webp" alt="">
-                                <br>
-                                <br>
-                                <img style="width: 200px;" src="img/logo_bocongthuong.png" alt="">
-                                <br>
-                            </div>
-
+                        <div class="col-md-6 text-secondary">
+                            <p>Nguyễn Bá Lợi - Thành viên</p>
+                            <p>Diệp Gia Hội - Thành viên</p>
+                            <p>
+                                Huỳnh Minh Tân - Thành viên
+                            </p>
+                            <p>Phan Gia Huy - Thành viên</p>
                         </div>
                     </div>
                 </div>
+             
 
+               
+            </div>
+            <!-- end ve chung toi -->
+            <!-- end content -->
+        
+        <br>
+        <br>
+        <br>
+
+      <hr>
+        <div class="container-fluid">
+        <footer id="footer" class="">
+            <div class="footer-top">
                 <div class="container">
-                    <div class="copyright">
-                        © 2023 Tên và Logo thuộc bản quyền thuộc về nhóm 6.
-                    </div>
+                    <div class="row">
 
-                    <div class="credits">
-                        <!-- All the links in the footer should remain intact. -->
-                        <!-- You can delete the links only if you purchased the pro version. -->
-                        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-                        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/ -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-info">
+                                <h3 style="font-size: 17px;">THEO DÕI Easy Study®:</h3>
+
+                                <strong>Phone:</strong> 0902.638.020 - 0931.610.291 <br>
+                                <strong>Email:</strong> duydtps22256@fpt.edu.vn<br>
+                                </p>
+                                <div class="social-links mt-3">
+
+
+                                    <a href="#" class="twitter"> <i class="fa-brands fa-facebook"></i></i></a>
+                                    <a href="#" class="facebook"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="#" class="instagram"><i class="fa-brands fa-tiktok"></i></i></a>
+                                    <a href="#" class="google-plus"><i class="fa-brands fa-twitter"></i></i></a>
+                                    <a href="#" class="linkedin"><i class="fa-brands fa-telegram"></i></i></a>
+
+                                </div>
+                                <div class="spinner-grow text-muted"></div>
+                                <div class="spinner-grow text-primary"></div>
+                                <div class="spinner-grow text-success"></div>
+                                <div class="spinner-grow text-info"></div>
+                                <div class="spinner-grow text-warning"></div>
+                                <div class="spinner-grow text-danger"></div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-2 col-md-6 footer-links">
+                            <h4>Trợ Giúp</h4>
+                            <ul style="text-decoration: none;">
+                    
+                                <li><i class="bx bx-chevron-right"></i> <a style="text-decoration: none;" href="#">Trung tâm trợ giúp</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a style="text-decoration: none;" href="#">Quy định sử dụng
+                                </a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a style="text-decoration: none;" href="#">Chính sách bảo mật</a></li>
+                               
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>Dịch Vụ</h4>
+                            <ul style="text-decoration: none;">
+                                <li><i class="bx bx-chevron-right"></i> <a style="text-decoration: none;" href="#">Tìm
+                                        bài viết</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a style="text-decoration: none;"
+                                        href="#">Blog</a></li>
+                                <!-- <li><i class="bx bx-chevron-right"></i> <a style="text-decoration: none;" href="#">
+                                        </a></li> -->
+                                <li><i class="bx bx-chevron-right"></i> <a style="text-decoration: none;" href="#">Chính
+                                        sách </a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a style="text-decoration: none;" href="#">Thông
+                                        tin liên hệ</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 footer">
+                            <h4>Đăng ký để nhận thông tin</h4>
+                            <p>Nhập email và ấn đăng ký để nhận thông báo sớm nhất </p>
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Your Email">
+                                <span class="input-group-text">Đăng ký</span>
+                            </div>
+                            <br>
+                            <br>
+
+                            <img style="width: 150px;" src="img/gg_map.webp" alt="">
+                            <br>
+                            <br>
+                            <img style="width: 200px;" src="img/logo_bocongthuong.png" alt="">
+                            <br>
+                        </div>
+
                     </div>
                 </div>
+            </div>
 
-            </footer><!-- End Footer -->
-        </div>
+            <div class="container">
+                <div class="copyright">
+                    © 2023 Tên và Logo thuộc bản quyền thuộc về nhóm 3.
+                </div>
+
+                <div class="credits">
+                    <!-- All the links in the footer should remain intact. -->
+                    <!-- You can delete the links only if you purchased the pro version. -->
+                    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/ -->
+                </div>
+            </div>
+            
+        </footer><!-- End Footer -->
     </div>
     </div>
+</div>
 </body>
 
 </html>

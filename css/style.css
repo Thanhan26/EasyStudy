@@ -27,8 +27,19 @@ margin:0;
 ul li #a:hover{
   background-color: rgb(245, 154, 154);
 }
+.a{
+  color: rgb(207, 18, 18);
+  }
 .a:hover{
-color: rgb(223, 16, 16);
+color: rgb(121, 160, 3);
+}
+
+
+#ic{
+  color: rgb(42, 240, 42);
+}
+#like{
+  color: rgb(68, 42, 240);
 }
 
 
